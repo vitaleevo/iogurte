@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-sans), sans-serif;
+  
+  --color-gold-100: #F7F3EB;
+  --color-gold-200: #EADEC9;
+  --color-gold-300: #D8C3A4;
+  --color-gold-400: #C19A6B;
+  --color-gold-500: #A27B4C;
+  --color-gold-600: #846034;
+  
+  --color-cream-50: #FCFAF7;
+  --color-cream-100: #FAF6F0;
+  --color-cream-200: #F5EFE4;
+  --color-cream-300: #EADFCF;
+  
+  --color-luxury-charcoal: #2E2A25;
+}
+
+/* Custom scrollbar and glassmorphism utilities */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #EADEC9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C19A6B;
+}
+
+@layer utilities {
+  .glass-light {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+}

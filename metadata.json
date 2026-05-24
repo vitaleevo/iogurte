@@ -1,0 +1,6 @@
+{
+  "name": "L'Or Blanc - Iogurtes Artesanais Premium",
+  "description": "Descubra o luxo do verdadeiro iogurte artesanal. Produção delicada, ingredientes biológicos selecionados e sabores gourmet exclusivos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
